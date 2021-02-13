@@ -1,12 +1,12 @@
-let titleOne = ["Light","Dark","Great","Legendary","Flameable","Evil","Steady","Big","Small","Famous","",];
+let titleOne = ["Light","Dark","Great","Legendary","Flameable","Evil","Steady","Big","Small","Famous","Sir","friendly","",];
 
-let titleTwo = ["Bringer","Stallion","Charmer","",];
+let titleTwo = ["Bringer","Stallion","Charmer","friendly","",];
 
 let firstnameOne = ["Grex","Exs","Wil","Lma","Sal","Kin","Cho","Tree","Majo","Em","Il","Orb","Ban",];
 
-let firstnameTwo =["grex","exs","wil","lma","sal","kin","cho","tree","majo","em","il","orb","ban",];
+let firstnameTwo =["grex","exs","wil","lma","sal","kin","cho","tree","majo","em","il","orb","ban","",];
 
-let lastnameOne = ["Hex","Smith","Mir","Gor","Mark","Till","My","Mill","Or","Stan","Ox","Dur","","",];
+let lastnameOne = ["Hex","Smith","Mir","Gor","Mark","Till","My","Mill","Or","Stan","Ox","Dur","",];
 
 let lastnameTwo = ["hex","smith","mir","gor","mark","till","my","mill","or","stan","ox","dur",];
 
