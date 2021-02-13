@@ -6,14 +6,14 @@ let firstnameOne = ["Grex","Exs","Wil","Lma","Sal","Kin","Cho","Tree","Majo","Em
 
 let firstnameTwo =["grex","exs","wil","lma","sal","kin","cho","tree","majo","em","il","orb","ban",];
 
-let lastnameOne = ["Hex","Smith","",];
+let lastnameOne = ["Hex","Smith","Mir","Gor","Mark","Till","My","Mill","Or","Stan","Ox","Dur","","",];
 
-let lastnameTwo = ["hex","Smith","",];
+let lastnameTwo = ["hex","smith","mir","gor","mark","till","my","mill","or","stan","ox","dur",];
 
 function getTitle(){
     const randomtitleOne = titleOne[Math.floor(Math.random()* titleOne.length)];
     const randomtitleTwo = titleTwo[Math.floor(Math.random()* titleTwo.length)];
-    const title = randomtitleOne + randomtitleTwo
+    const title = randomtitleOne +" "+ randomtitleTwo
     document.getElementById("title").innerText = title
 }
 
@@ -37,6 +37,9 @@ function getLastName(){
 document.getElementById("generate").addEventListener("click", getName)
 
 function getName(){
+    document.getElementById("title").innerText = ""
+    document.getElementById("firstname").innerText = ""
+    document.getElementById("lastname").innerText = ""
     getTitle()
     getFirstName()
     getLastName()
