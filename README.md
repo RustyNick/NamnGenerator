@@ -1,0 +1,2 @@
+# NamnGenerator
+Generate random name
