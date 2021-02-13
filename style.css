@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0px;
+}
+.box{
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+}
+
+.innerBox{
+    width:300px;
+    margin:auto;
+    flex-flow: row;
+    background-color: bisque;
+}
