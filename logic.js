@@ -1,20 +1,27 @@
-let titleOne = ["Light","Dark","Great","Legendary","Flameable","Evil","Steady","Big","Small","Famous","",];
+window.addEventListener("load",initsite)
 
-let titleTwo = ["Bringer","Stallion","Charmer","",];
+document.getElementById("cleartitle").addEventListener("click",cleartitle )
+document.getElementById("clearfname").addEventListener("click",clearfname )
+document.getElementById("clearlname").addEventListener("click",clearlname )
+document.getElementById("clearnname").addEventListener("click",clearnname )
 
-let firstnameOne = ["Grex","Exs","Wil","Lma","Sal","Kin","Cho","Tree","Majo","Em","Il","Orb","Ban","Mander","Xor","Xav","Iar"];
+function initsite(){
+    document.getElementById("fRandom").checked = true;
+}
 
-let firstnameTwo =["grex","exs","wil","lma","sal","kin","cho","tree","majo","em","il","orb","ban","mander","xor","xav","iar"];
+function cleartitle(){
+    document.getElementById("title").innerText = ""
+}
+function clearfname(){
+    document.getElementById("firstname").innerText = ""
+}
+function clearlname(){
+    document.getElementById("lastname").innerText = ""
+}
 
-let lastnameOne = ["Hex","Smith","Mir","Gor","Mark","Till","My","Mill","Or","Stan","Ox","Dur","","",];
-
-let lastnameTwo = ["hex","smith","mir","gor","mark","till","my","mill","or","stan","ox","dur",];
-
-let nicknameOne =["of the","the",];
-
-let nicknameTwo =["northendsea","westernsea","easternsea","southernsea","highsea","deadsea","Gray","Yellow","White","Black","Dark","orphan","farmer","Mayor","Guilds","Warrior","King","Queens","Lady","Gentleman","Jester","Trader",];
-
-let newName = []
+function clearnname(){
+    document.getElementById("nickName").innerText = ""
+}
 
 function getTitle(){
     const randomtitleOne = titleOne[Math.floor(Math.random()* titleOne.length)];
