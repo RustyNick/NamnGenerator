@@ -8,6 +8,7 @@ button{
     background-color: blueviolet;
     border:none;
     outline:grey;
+    margin-bottom:10px;
     transition:0.3s;
 }
 button:hover{
@@ -25,23 +26,38 @@ main{
     justify-content: center;
 }
 .box{
-    width:300px;
+    width:400px;
     margin-top: 300px;
     display:flex;
     flex-direction:column;
 }
 
 .innerBox{
-    width:300px;
+    width:400px;
     padding:3px;
     margin:auto;
     flex-flow: row;
     background-color: bisque;
 }
+
+.bigger{
+    min-height:42px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    border-bottom:1px solid black;
+}
 .name {
+    width:49%;
     padding:5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* display:inline-block; */
     font-weight: bold;
     text-align: center;
 
+}
+#saves{
+    background-color: darkcyan;
 }
